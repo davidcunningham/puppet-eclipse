@@ -5,8 +5,6 @@ Puppet::Type.type(:package).provide :compressed_eclipse,
 :parent => Puppet::Provider::Package do
   desc "Installs a compressed Eclipse package. Supports zip, tar.gz, tar.bz2"
 
-  FLAVORS = %w(zip tgz tar.gz tbz tbz2 tar.bz2)
-
   confine  :operatingsystem => :darwin
 
   commands :curl  => "/usr/bin/curl"
