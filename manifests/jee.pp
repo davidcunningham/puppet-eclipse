@@ -13,7 +13,7 @@ class eclipse::jee(
   $mirror='http://ftp.osuosl.org/pub/eclipse') {
 
   package { "Eclipse-JEE-${release}-${version}":
-    provider => 'compressed_app',
+    provider => 'compressed_eclipse',
     source   => "${mirror}/technology/epp/downloads/release/${release}/${version}/eclipse-jee-${release}-${version}-macosx-cocoa-x86_64.tar.gz",
   }
 
