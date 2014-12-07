@@ -6,6 +6,6 @@
 class eclipse::ggts {
   package { 'Eclipse':
     provider => 'compressed_app',
-    source   => 'http://download.springsource.com/release/STS/3.3.0/dist/e4.3/groovy-grails-tool-suite-3.3.0.RELEASE-e4.3-macosx-cocoa-x86_64.tar.gz',
+    source   => 'http://download.springsource.com/release/STS/3.6.3/dist/e4.4/groovy-grails-tool-suite-3.6.3.RELEASE-e4.4.1-macosx-cocoa-x86_64.tar.gz',
   }
 }
