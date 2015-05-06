@@ -9,7 +9,7 @@
 #
 class eclipse::jee(
   $release='luna',
-  $version='R',
+  $version='SR2',
   $mirror='http://ftp.osuosl.org/pub/eclipse') {
 
   package { "Eclipse-JEE-${release}-${version}":
