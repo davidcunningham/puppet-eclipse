@@ -10,7 +10,7 @@
 #
 class eclipse::cpp(
   $release='luna',
-  $version='R',
+  $version='SR2',
   $mirror='http://ftp.osuosl.org/pub/eclipse') {
 
 
